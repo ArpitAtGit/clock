@@ -1,0 +1,44 @@
+.clockcont{
+    height: 45vw;
+    width: 45vw;
+    background: url(clock.jpg) no-repeat;
+    margin: auto;
+    background-size: 100%;
+}
+
+#hour{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+    width: 1vw;
+    height: 12vw;
+    top: 11.5vw;
+    left: 49.75vw;
+    border-radius:10px; 
+    transform-origin: bottom;
+}
+
+#min{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+    width: 0.85vw;
+    height: 14vw;
+    top: 9.3vw;
+    left: 49.8vw;
+    border-radius:10px;
+    transform-origin: bottom;
+} 
+
+#sec{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+    width: 0.75vw;
+    height: 16vw;
+    top: 7.4vw;
+    left: 49.6vw;
+    border-radius:10px;  
+    transform-origin: bottom;
+
+}
